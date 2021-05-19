@@ -20,14 +20,14 @@ figure {
   justify-content: center;
 }
 
-.book-image {
+.book__image {
   display: inline-block;
   margin: 10px 30px;
   position: relative;
   transition: .2s;
 }
 
-.book-image::after {
+.book__image::after {
   content: "\f004";
   font-family: "Font Awesome 5 Free";
   -moz-osx-font-smoothing: grayscale;
@@ -47,20 +47,20 @@ figure {
   opacity: 0;
 }
 
-.book-image:hover:after {
+.book__image:hover:after {
   opacity: 0.5;
 }
 
-.book-image.favourite {
+.book__image.favourite {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
 }
 
-.book-image.favourite::after {
+.book__image.favourite::after {
   opacity: 1;
 }
 
-.book-image.hidden {
+.book__image.hidden {
   opacity: 0.5;
 }
 
